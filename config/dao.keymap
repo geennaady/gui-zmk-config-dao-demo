@@ -98,6 +98,46 @@
         , <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>
         ;
     };
+    mouse_on: mouse_on {
+                label = "mouse_on";
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                    = <&macro_tap &tog MOU>
+                    ;
+            };
+    mouse_off: mouse_off {
+                        label = "mouse_off";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                            = <&macro_tap &tog MOU>
+                            ;
+                    };
+    lang: lang {
+                        label = "lang";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                            = <&kp CAPS>
+                            ;
+                    };
+    calc_on: calc_on {
+                                label = "calc_on";
+                                compatible = "zmk,behavior-macro";
+                                #binding-cells = <0>;
+                                bindings
+                                    = <&macro_tap &tog CLC>
+                                    ;
+                            };
+    calc_off: calc_off {
+                               label = "calc_off";
+                               compatible = "zmk,behavior-macro";
+                               #binding-cells = <0>;
+                               bindings
+                                   = <&macro_tap &tog CLC>
+                                   ;
+                           };
   };
 
   behaviors {
