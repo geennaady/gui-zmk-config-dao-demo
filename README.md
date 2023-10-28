@@ -34,6 +34,6 @@ keyboard in a way that the keymap editor can use.
 
 [keymap-editor]:https://github.com/nickcoutsos/keymap-editor
 [keymap-layout-tools]:https://nickcoutsos.github.io/keymap-layout-tools/
-[`config/corne.keymap`]:config/corne.keymap
-[`config/corne.json`]:config/corne.json
+[`config/corne.keymap`]:config/dao.keymap
+[`config/corne.json`]:config/dao.json
 [template]:https://github.com/nickcoutsos/keymap-editor-demo-crkbd/generate
