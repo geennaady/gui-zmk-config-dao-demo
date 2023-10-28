@@ -3,6 +3,34 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define DEF 0
+#define NAV 1
+#define NUM 2
+#define SYM 3
+#define FUN 4
+#define MSC 5
+#define MOU 6
+#define WIN 7
+#define MOD 8
+#define CLC 9
+#define WOS 10
+#define CMD LGUI
+#define OPT LALT
+#define CTRL LCTRL
+#define SHFT LSHFT
+#define MOU_LL MOVE_LEFT
+#define LL LEFT
+#define MOU_DD MOVE_DOWN
+#define DD DOWN
+#define MOU_UU MOVE_UP
+#define UU UP
+#define MOU_RR MOVE_RIGHT
+#define RR RIGHT
+#define CM(x) LG(x)
+#define SH(x) LS(x)
+#define OP(x) LA(x)
+#define CT(x) LC(x)
+
 // dt-formatter: indent = "  "
 // dt-formatter: multilineIntegerCellsIndent = "reindent"
 // dt-formatter: multilineListCommaStyle = "leading"
